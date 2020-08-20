@@ -13,3 +13,9 @@ To install:
 -For Matlab, add coco/MatlabApi to the Matlab path (OSX/Linux binaries provided)
 -For Python, run "make" under coco/PythonAPI
 -For Lua, run “luarocks make LuaAPI/rocks/coco-scm-1.rockspec” under coco/
+
+How to install COCO API on Python
+$ git clone https://github.com/cocodataset/cocoapi
+$ cd cocoapi/PythonAPI
+$ python setup.py build_ext --inplace
+$ python setup.py build_ext install
